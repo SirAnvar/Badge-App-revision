@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#ffffff">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scouts UK - Badges</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,900">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="apple-touch-icon" href="Assets/Icons/icon-152.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white-translucent">
+    <meta name="apple-mobile-web-app-title" content="Scout Badges">
+    <meta name="msapplication-TileImage" content="Assets/Icons/icon-144.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+
+    <script src="JS/main.js"></script>
+</head>
+
+<body>
+    <div class="section-wrap">
+        <ul class="section-nav">
+            <li class="section-nav-item active-section" id="beavers" onclick="changeSection('beavers')">
+                Beavers
+            </li>
+            <li class="section-nav-item" id="cubs" onclick="changeSection('cubs')">
+                Cubs
+            </li>
+            <li class="section-nav-item" id="scouts" onclick="changeSection('scouts')">
+                Scouts
+            </li>
+            <li class="section-nav-item" id="explorers" onclick="changeSection('explorers')">
+                Explorers
+            </li>
+            <li class="section-nav-item" id="network" onclick="changeSection('network')">
+                Network
+            </li>
+        </ul>
+    </div>
+
+    <div class="main-content" id="main-content">
+
+    </div>
+    
+    <div class="main-nav">
+        <ul class="main-nav-list">
+            <li class="main-nav-list-item" onclick="sectionPage();">
+                Section
+            </li>
+            <li class="main-nav-list-item">
+                Promise & Law
+            </li>
+            <li class="main-nav-list-item" onclick="changePage('badges')">
+                Badges
+            </li>
+            <li class="main-nav-list-item">
+                Position
+            </li>
+        </ul>
+    </div>
+    
+
+</body>
+
+</html>
