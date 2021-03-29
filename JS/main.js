@@ -1,11 +1,3 @@
-window.onload = () => {
-    'use strict';
-
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('./sw.js');
-    }
-}
-
 var section = 'beavers';
 var lastSection = 'beavers';
 
