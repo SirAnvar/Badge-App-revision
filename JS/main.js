@@ -29,7 +29,7 @@ function setActiveSection(sectionName, lastSectionName) {
 function changePage(page) {
     console.log(section);
     var content = document.getElementById("main-content");
-    content.innerHTML = `<object width="100%" height="100%" type="text/html" data="../pages/${section}/${page}.html"></object>`;
+    content.innerHTML = `<object width="100%" height="100%" type="text/html" data="/${page}.html"></object>`;
     content.classList.add("pageUp");
 };
 
